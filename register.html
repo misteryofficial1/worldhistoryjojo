@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="MYO">
+      <meta name="description" content="Register for an account on this website.">
+      <link rel="stylesheet" href="styling1.css" type="text/css">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <title>Register - World History: Explained in Full</title>
+  </head>
+  <body>
+      <h2>Register</h2>
+        <fieldset class="personal-info">
+        <legend style="color:#e2c403">Info</legend>
+        <form action="https://httpbin.org/get" method="get">
+            <label for="username" style="color: #e2c403">Username:</label>
+            <input type="text" name="username" id="username" placeholder="jojopart1skipper" autocomplete="on" required>
+            <br>
+            <label for="password" style="color: #e2c403">Password:</label>
+            <input type="password" name="password" id="password" placeholder="dio_muda_fucka" autocomplete="on" required>
+            <br>
+            <label for="password2" style="color: #e2c403">Confirm Password:</label>
+            <input type="password" name="password2" id="password2" autocomplete="on" required>
+            <br>
+            <label for="email" style="color: #e2c403">Email:</label>
+            <input type="email" name="email" id="email" placeholder="jotaro123@gmail.com" autocomplete="on" required>
+            <br>
+            <label for="phone" style="color: #e2c403">(US) Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}0-9]{4}">
+        </form>
+            <br>
+        </fieldset>
+            <br>
+        <fieldset class="bestjojo-char-part">
+          <legend style="color:#e2c403">Optional</legend>
+          <p>
+            <label for="part" style="color: #e2c403">Best Part in JoJo (Opinion):</label>
+            <span style="display: inline-block; width: 200px;">
+            <select name="part" id="part" multiple size="4">
+              <optgroup label="Anime">
+                <option value="1">Part 1: Phantom Blood</option>
+                <option value="2">Part 2: Battle Tendency</option>
+                <option value="3">Part 3: Stardust Crusaders</option>
+                <option value="4">Part 4: Diamond is Unbreakable</option>
+                <option value="5">Part 5: Vento Aureo</option>
+                <option value="6">Part 6: Stone Ocean</option>
+              </optgroup>
+              <optgroup label="Manga">
+                <option value="7">Part 7: Steel Ball Run</option>
+                <option value="8">Part 8: JoJolion</option>
+                <option value="9">Part 9: The JOJOLands</option>
+              </optgroup>
+            </select>
+            </span>
+          </p>
+          <p>
+            <label for="jojoprotagonists" style="color: #e2c403">Best JoJo Protagonist (Opinion):</label>
+            <input type="text" name="jojoprotagonists" id="jojoprotagonists" list="jojoprot-list">
+            <datalist id="jojoprot-list">
+            <option value="Jonathan Joestar">
+            <option value="Joseph Joestar">
+            <option value="Jotaro Kujo">
+            <option value="Giorno Giovanna">
+            <option value="Jolyne Cujoh">
+            </datalist>
+          </p>
+          <p>
+            <label for="jojoantagonists" style="color: #e2c403">Best JoJo Antagonist (Opinion):</label>
+            <input type="text" name="jojoantagonists" id="jojoantagonists" list="jojoanat-list">
+            <datalist id="jojoanat-list">
+            <option value="Dio Brando">
+            <option value="Kars">
+            <option value="DIO">
+            <option value="Diavolo">
+            <option value="Enrico Pucci">
+            </datalist>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset class="articles">
+          <legend style="color:#e2c403">Would you like to receive articles from us?</legend>
+          <p>
+          <input type="radio" name="receive-articles" id="yes" value="yes">
+          <label for="yes" style="color:#e2c403">Yes, I would like to receive articles regarding world history and other shenanigans.</label>
+          </p>
+          <p>
+          <input type="radio" name="receive-articles" id="no" value="no">
+          <label for="no" style="color:#e2c403">No, I do not like getting distracted by any random emails. I perfer peace and quiet.</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset class="bio">
+          <legend style="color:#e2c403">Write a Bio</legend>
+          <label for="message"></label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="MUDA! MUDA! MUDA! MUDA! MUDA!" required></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Register</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+    <hr>
+    <h4>Real History &gt; Fake History</h4>
+    <ul>
+      <li>"In times of deceit, telling the truth is a revolutionary act." - George Orwell</li>
+    </ul>
+    <p>
+      <a href="WorldHistory.html">Home</a>
+    </p>
+    <footer id="footer">
+      <p>Copyright &copy; 2024 <abbr title="MisterYOfficial">MYO</abbr> Cooperation.</p>
+    </footer>
+  </body>
+</html>
